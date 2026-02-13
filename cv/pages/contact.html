@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Xhafer Ibrahimi</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/chatbot.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../assets/img/logo.svg" alt="Xhafer Ibrahimi" height="50">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-center gap-3">
+        <li class="nav-item"><a class="nav-link" href="../index.html" data-i18n="nav_home"></a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html" data-i18n="nav_about"></a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html" data-i18n="nav_projects"></a></li>
+        <li class="nav-item"><a class="nav-link" href="skills.html" data-i18n="nav_skills"></a></li>
+        <li class="nav-item"><a class="nav-link active" href="#" data-i18n="nav_contact"></a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="langLabel">EN</a>
+          <ul class="dropdown-menu">
+            <li><button class="dropdown-item" data-lang="en">English</button></li>
+            <li><button class="dropdown-item" data-lang="sq">Shqip</button></li>
+            <li><button class="dropdown-item" data-lang="de">Deutsch</button></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <button id="themeToggle" class="btn btn-sm btn-outline-custom">
+            <i class="bi bi-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Contact Section -->
+<section class="container hero my-5 pt-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <h1 class="fw-bold mb-2 text-center" data-i18n="contact_title"></h1>
+      <p class="text-muted text-center mb-5" data-i18n="contact_subtitle"></p>
+
+      <!-- Main Contact Card -->
+      <div class="contact-main-card">
+        <!-- Header -->
+        <div class="contact-header">
+          <h2 class="fw-bold mb-1">Xhafer Ibrahimi</h2>
+          <p class="text-muted mb-3">Full Stack Developer | Creative Problem Solver</p>
+          <p class="contact-bio">Always open to new opportunities and collaborations. Feel free to reach out!</p>
+        </div>
+
+        <!-- Contact Options -->
+        <div class="contact-options">
+          <div class="row g-3">
+            <!-- Email -->
+            <div class="col-md-6">
+              <a href="mailto:xhafibr@gmail.com" class="contact-option-card">
+                <div class="contact-option-icon">
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+                <div class="contact-option-content">
+                  <h6 class="fw-bold mb-1">Email</h6>
+                  <p class="mb-0">xhafibr@gmail.com</p>
+                </div>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="col-md-6">
+              <a href="https://linkedin.com/in/xhafer-ibrahimi" target="_blank" class="contact-option-card">
+                <div class="contact-option-icon">
+                  <i class="bi bi-linkedin"></i>
+                </div>
+                <div class="contact-option-content">
+                  <h6 class="fw-bold mb-1">LinkedIn</h6>
+                  <p class="mb-0">Xhafer Ibrahimi</p>
+                </div>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+
+            <!-- GitHub -->
+            <div class="col-md-6">
+              <a href="https://github.com/Ibrahimi06" target="_blank" class="contact-option-card">
+                <div class="contact-option-icon">
+                  <i class="bi bi-github"></i>
+                </div>
+                <div class="contact-option-content">
+                  <h6 class="fw-bold mb-1">GitHub</h6>
+                  <p class="mb-0">Ibrahimi06</p>
+                </div>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+
+            <!-- Instagram -->
+            <div class="col-md-6">
+              <a href="https://instagram.com/xhaferibrahimii" target="_blank" class="contact-option-card">
+                <div class="contact-option-icon">
+                  <i class="bi bi-instagram"></i>
+                </div>
+                <div class="contact-option-content">
+                  <h6 class="fw-bold mb-1">Instagram</h6>
+                  <p class="mb-0">@xhaferibrahimii</p>
+                </div>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+
+            <!-- Facebook -->
+            <div class="col-md-6">
+              <a href="https://facebook.com/xhafer.ibrahimi" target="_blank" class="contact-option-card">
+                <div class="contact-option-icon">
+                  <i class="bi bi-facebook"></i>
+                </div>
+                <div class="contact-option-content">
+                  <h6 class="fw-bold mb-1">Facebook</h6>
+                  <p class="mb-0">Xhafer Ibrahimi</p>
+                </div>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+
+            <!-- Phone/WhatsApp -->
+            <div class="col-md-6">
+              <a href="https://wa.me/383491234567" target="_blank" class="contact-option-card">
+                <div class="contact-option-icon">
+                  <i class="bi bi-whatsapp"></i>
+                </div>
+                <div class="contact-option-content">
+                  <h6 class="fw-bold mb-1">WhatsApp</h6>
+                  <p class="mb-0">Message me directly</p>
+                </div>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Email Form (Optional) -->
+        <div class="contact-email-section mt-5 pt-4 border-top">
+          <h5 class="fw-bold mb-4">Or send me a quick message:</h5>
+          <form id="contactForm" class="contact-form-simple">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input type="text" name="name" class="form-control form-control-sm" placeholder="Your name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" name="email" class="form-control form-control-sm" placeholder="your@email.com" required>
+              </div>
+              <div class="col-12">
+                <input type="text" name="subject" class="form-control form-control-sm" placeholder="Subject" required>
+              </div>
+              <div class="col-12">
+                <textarea name="message" class="form-control form-control-sm" rows="4" placeholder="Your message..." required></textarea>
+                <small class="text-muted d-block text-end mt-1"><span id="charCount">0</span>/500</small>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary w-100 fw-bold">Send Message</button>
+              </div>
+            </div>
+          </form>
+          <div id="formMsg" class="mt-3 text-center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Main Contact Card */
+  .contact-main-card {
+    background: var(--section-bg);
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    transition: all 0.3s ease;
+  }
+
+  .contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .contact-header h2 {
+    font-size: 2rem;
+    color: var(--text-color);
+  }
+
+  .contact-bio {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    opacity: 0.8;
+  }
+
+  /* Contact Options Grid */
+  .contact-option-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+  }
+
+  .contact-option-card:hover {
+    transform: translateX(8px);
+    border-color: #8ab17d;
+    box-shadow: 0 10px 25px rgba(138, 177, 125, 0.15);
+    background: rgba(138, 177, 125, 0.05);
+  }
+
+  .contact-option-icon {
+    font-size: 1.8rem;
+    color: #8ab17d;
+    min-width: 50px;
+    text-align: center;
+  }
+
+  .contact-option-content {
+    flex: 1;
+  }
+
+  .contact-option-content h6 {
+    color: var(--text-color);
+    margin-bottom: 0.25rem;
+  }
+
+  .contact-option-content p {
+    color: var(--text-color);
+    opacity: 0.7;
+    font-size: 0.95rem;
+  }
+
+  .contact-option-card i:last-child {
+    color: #8ab17d;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+  }
+
+  .contact-option-card:hover i:last-child {
+    transform: translateX(5px);
+  }
+
+  /* Email Section */
+  .contact-email-section {
+    background: rgba(138, 177, 125, 0.05);
+    padding: 30px;
+    border-radius: 12px;
+  }
+
+  .contact-form-simple {
+    background: transparent;
+  }
+
+  .contact-form-simple .form-control-sm {
+    background: var(--bg-color);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 0.95rem;
+  }
+
+  .contact-form-simple .form-control-sm:focus {
+    border-color: #8ab17d;
+    box-shadow: 0 0 0 0.2rem rgba(138, 177, 125, 0.25);
+  }
+
+  .form-control:focus {
+    border-color: #8ab17d;
+    box-shadow: 0 0 0 0.2rem rgba(138, 177, 125, 0.25);
+  }
+
+  .form-control-lg {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+
+  .btn-primary.btn-lg {
+    background-color: #8ab17d;
+    border-color: #8ab17d;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+  }
+
+  .btn-primary.btn-lg:hover {
+    background-color: #6c9963;
+    border-color: #6c9963;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(138, 177, 125, 0.3);
+  }
+
+  .alert {
+    border-radius: 8px;
+    padding: 15px;
+    animation: slideIn 0.3s ease;
+  }
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+<!-- FOOTER -->
+<footer class="text-center py-3">
+  © 2026 Xhafer Ibrahimi
+</footer>
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/theme.js"></script>
+<script src="../assets/js/language.js"></script>
+<script src="../assets/js/contact.js"></script>
+<script src="../assets/js/chatbot.js"></script>
+
+</body>
+</html>

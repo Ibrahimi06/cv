@@ -1,0 +1,30 @@
+<svg width="280" height="50" viewBox="0 0 280 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients and filters -->
+  <defs>
+    <linearGradient id="gradientBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8ab17d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6c9963;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="280" height="50" fill="none"/>
+
+  <!-- Main Circle Background -->
+  <circle cx="25" cy="25" r="18" fill="url(#gradientBg)" filter="url(#shadow)"/>
+
+  <!-- XI Text - Bold and Clear -->
+  <text x="25" y="33" font-family="Poppins, sans-serif" font-size="24" font-weight="700" fill="white" text-anchor="middle" letter-spacing="1">XI</text>
+
+  <!-- Company Name - Xhafer -->
+  <text x="60" y="20" font-family="Poppins, sans-serif" font-size="18" font-weight="700" fill="#8ab17d" letter-spacing="0.5">Xhafer</text>
+
+  <!-- Surname - Ibrahimi -->
+  <text x="60" y="38" font-family="Poppins, sans-serif" font-size="13" font-weight="500" fill="#6c9963" letter-spacing="0.3">Ibrahimi</text>
+
+  <!-- Accent Line -->
+  <line x1="60" y1="42" x2="200" y2="42" stroke="#8ab17d" stroke-width="2" stroke-linecap="round"/>
+</svg>
