@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xhafer Ibrahimi | Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/chatbot.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/img/logo.svg" alt="Xhafer Ibrahimi" height="50">
+    </a>
+
+    <!-- Mobile Toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto align-items-center gap-2">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html" data-i18n="nav_home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/about.html" data-i18n="nav_about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/projects.html" data-i18n="nav_projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/skills.html" data-i18n="nav_skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/contact.html" data-i18n="nav_contact">Contact</a>
+        </li>
+
+        <!-- Language Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-bs-toggle="dropdown">
+            <span id="langLabel">EN</span>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><button class="dropdown-item" data-lang="en">English</button></li>
+            <li><button class="dropdown-item" data-lang="sq">Shqip</button></li>
+            <li><button class="dropdown-item" data-lang="de">Deutsch</button></li>
+          </ul>
+        </li>
+
+        <!-- Theme Toggle -->
+        <li class="nav-item">
+          <button id="themeToggle" class="btn btn-sm btn-outline-secondary" title="Toggle Dark Mode">
+            <i class="bi bi-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION - ADVANCED -->
+<section class="hero-advanced container-fluid pt-5">
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="hero-content">
+          <h1 class="display-3 fw-bold mb-3" data-i18n="hero_title">Hi, I'm Xhafer Ibrahimi</h1>
+          <p class="lead text-muted mb-4" data-i18n="hero_subtitle">Computer Science & Engineering Student – Web Developer</p>
+          
+          <div class="d-flex gap-3 mb-5 flex-wrap">
+            <a href="pages/projects.html" class="btn btn-primary btn-lg px-4" data-i18n="btn_projects">View Projects</a>
+            <a href="pages/contact.html" class="btn btn-outline-primary btn-lg px-4" data-i18n="btn_contact">Contact Me</a>
+          </div>
+
+          <div class="quick-stats d-flex gap-5">
+            <div>
+              <h5 class="fw-bold text-primary">4+</h5>
+              <p class="small text-muted">Projects</p>
+            </div>
+            <div>
+              <h5 class="fw-bold text-primary">8+</h5>
+              <p class="small text-muted">Technologies</p>
+            </div>
+            <div>
+              <h5 class="fw-bold text-primary">4+</h5>
+              <p class="small text-muted">Years of Learning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 d-none d-lg-block">
+        <div class="hero-visual">
+          <div class="animated-gradient-box"></div>
+          <div class="code-snippet">
+            <code>&lt;portfolio /&gt;</code>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED PROJECTS SECTION -->
+<section class="featured-section container my-5 py-5">
+  <div class="row mb-5">
+    <div class="col-12 text-center">
+      <h2 class="display-5 fw-bold mb-3" data-i18n="featured_projects">Featured Projects</h2>
+      <p class="lead text-muted" data-i18n="featured_desc">Showcase of my best work across different technologies</p>
+    </div>
+  </div>
+
+  <div class="row g-4">
+    <!-- Project 1 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="featured-card">
+        <div class="card-icon">
+          <i class="bi bi-globe"></i>
+        </div>
+        <h5 class="fw-bold mt-3">ETHO</h5>
+        <p class="text-muted small">HTML, CSS, JavaScript</p>
+        <p class="card-description">Interactive web application showcasing modern UI/UX design principles and responsive development.</p>
+        <div class="tech-tags mb-3">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+        <a href="pages/projects.html" class="card-link">View Project <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="featured-card">
+        <div class="card-icon backend-icon">
+          <i class="bi bi-server"></i>
+        </div>
+        <h5 class="fw-bold mt-3">E-Commerce Backend</h5>
+        <p class="text-muted small">C#, .NET, SQL</p>
+        <p class="card-description">Robust API backend for e-commerce platform with authentication, payments, and inventory management.</p>
+        <div class="tech-tags mb-3">
+          <span class="tech-tag">C#</span>
+          <span class="tech-tag">.NET</span>
+          <span class="tech-tag">SQL</span>
+        </div>
+        <a href="pages/projects.html" class="card-link">View Project <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="featured-card">
+        <div class="card-icon db-icon">
+          <i class="bi bi-database"></i>
+        </div>
+        <h5 class="fw-bold mt-3">Travel Agency System</h5>
+        <p class="text-muted small">SQL, Database Design</p>
+        <p class="card-description">Complete database system for travel agency management with bookings, packages, and customer records.</p>
+        <div class="tech-tags mb-3">
+          <span class="tech-tag">SQL</span>
+          <span class="tech-tag">Database</span>
+          <span class="tech-tag">Design</span>
+        </div>
+        <a href="pages/projects.html" class="card-link">View Project <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mt-5">
+    <a href="pages/projects.html" class="btn btn-primary btn-lg">View All Projects</a>
+  </div>
+</section>
+
+<!-- SKILLS PREVIEW SECTION -->
+<section class="container-fluid py-5" style="background: var(--section-bg);">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="display-5 fw-bold mb-3" data-i18n="skills_preview">Core Competencies</h2>
+        <p class="lead text-muted" data-i18n="skills_desc">A diverse skill set spanning frontend, backend, and database technologies</p>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="skill-category">
+          <div class="skill-header">
+            <i class="bi bi-palette-fill"></i>
+            <h5 class="fw-bold">Frontend</h5>
+          </div>
+          <ul class="skill-list">
+            <li><i class="bi bi-check-circle-fill"></i> HTML5 & CSS3</li>
+            <li><i class="bi bi-check-circle-fill"></i> JavaScript</li>
+            <li><i class="bi bi-check-circle-fill"></i> Bootstrap</li>
+            <li><i class="bi bi-check-circle-fill"></i> Responsive Design</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="skill-category">
+          <div class="skill-header">
+            <i class="bi bi-gear-fill"></i>
+            <h5 class="fw-bold">Backend</h5>
+          </div>
+          <ul class="skill-list">
+            <li><i class="bi bi-check-circle-fill"></i> C# & .NET</li>
+            <li><i class="bi bi-check-circle-fill"></i> PHP</li>
+            <li><i class="bi bi-check-circle-fill"></i> RESTful APIs</li>
+            <li><i class="bi bi-check-circle-fill"></i> Database Design</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="skill-category">
+          <div class="skill-header">
+            <i class="bi bi-database-fill"></i>
+            <h5 class="fw-bold">Database</h5>
+          </div>
+          <ul class="skill-list">
+            <li><i class="bi bi-check-circle-fill"></i> SQL Server</li>
+            <li><i class="bi bi-check-circle-fill"></i> PostgreSQL</li>
+            <li><i class="bi bi-check-circle-fill"></i> Data Modeling</li>
+            <li><i class="bi bi-check-circle-fill"></i> Query Optimization</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="skill-category">
+          <div class="skill-header">
+            <i class="bi bi-tools"></i>
+            <h5 class="fw-bold">Tools & More</h5>
+          </div>
+          <ul class="skill-list">
+            <li><i class="bi bi-check-circle-fill"></i> Git & GitHub</li>
+            <li><i class="bi bi-check-circle-fill"></i> VS Code</li>
+            <li><i class="bi bi-check-circle-fill"></i> Problem Solving</li>
+            <li><i class="bi bi-check-circle-fill"></i> Teamwork</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5">
+      <a href="pages/skills.html" class="btn btn-primary btn-lg">See Full Skills</a>
+    </div>
+  </div>
+</section>
+
+<!-- CV SECTION -->
+<section class="container my-5 py-5" id="cv">
+  <div class="cv-container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h2 class="display-5 fw-bold mb-4">Professional Experience</h2>
+        <p class="lead text-muted mb-4">Download my CV to learn more about my background, education, and professional journey.</p>
+        <div class="cv-highlights">
+          <div class="highlight-item">
+            <i class="bi bi-mortarboard-fill"></i>
+            <div>
+              <h6 class="fw-bold">Education</h6>
+              <p class="small text-muted">University studies and certifications</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <i class="bi bi-briefcase-fill"></i>
+            <div>
+              <h6 class="fw-bold">Experience</h6>
+              <p class="small text-muted">Professional projects and collaborations</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <i class="bi bi-award-fill"></i>
+            <div>
+              <h6 class="fw-bold">Achievements</h6>
+              <p class="small text-muted">Skills and accomplishments</p>
+            </div>
+          </div>
+        </div>
+        <a href="assets/img/CV.pdf" class="btn btn-primary btn-lg mt-4" download>
+          <i class="bi bi-download me-2"></i>Download CV
+        </a>
+      </div>
+      <div class="col-lg-6 d-none d-lg-block">
+        <div class="cv-visual">
+          <div class="cv-card">
+            <div class="cv-header"></div>
+            <div class="cv-content">
+              <div class="cv-line"></div>
+              <div class="cv-line short"></div>
+              <div class="cv-line"></div>
+              <div class="cv-line short"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="cta-section container-fluid py-5">
+  <div class="container text-center">
+    <h2 class="display-4 fw-bold mb-4">Ready to work together?</h2>
+    <p class="lead mb-5 text-muted">Let's create something amazing. Get in touch today!</p>
+    <div class="d-flex gap-3 justify-content-center flex-wrap">
+      <a href="pages/contact.html" class="btn btn-primary btn-lg px-5">Start a Project</a>
+      <a href="pages/projects.html" class="btn btn-outline-primary btn-lg px-5">See My Work</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-3">
+  © 2026 Xhafer Ibrahimi
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="assets/js/language.js"></script>
+<script src="assets/js/chatbot.js"></script>
+
+</body>
+</html>
